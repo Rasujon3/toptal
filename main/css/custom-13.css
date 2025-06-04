@@ -1,0 +1,107 @@
+.tab-setting .nav-tabs li{
+  width: 49.5%;
+}
+.tab-setting .nav-tabs{
+  padding: 5px;
+  background-color: #f2f2f4;
+  border-radius: 10px;
+}
+.dark-skin .tab-setting .nav-tabs{
+  background-color: #20304c;
+}
+.tab-setting .nav-tabs li button{
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.8s ease;
+  padding: 6px 10px !important;
+  color: #7e8299;
+}
+.tab-setting .nav-tabs li .active{
+  color: #172b4c !important;
+  background-color: #ffffff !important;
+}
+.dark-skin .tab-setting .nav-tabs li .active {
+    background-color: #0c1a32 !important;
+}
+
+.tab-setting-2 .nav-link {
+    color: #7e8299 !important;
+}
+.tab-setting-2 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #ffffff !important;
+    background-color: #0080ff;
+}
+
+
+.search-container {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.search-container input#search-bar {
+  margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 0px solid #D0CFCE;
+    outline: none;
+    background: #f3f3f5;
+    border-radius: 10px;
+}
+.search-container input#search-bar:focus {
+  border: 1px solid #0080ff;
+  transition: 0.35s ease;
+}
+.search-container input#search-bar:focus::-webkit-input-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+.search-container input#search-bar:focus::-moz-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+.search-container input#search-bar:focus:-ms-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  float: right;
+  width: 65px;
+  height: 65px;
+  top: 10px;
+  right: 20px;
+  filter: opacity(0.5);
+}
+
+
+
+.irs-slider {
+    width: 21px;
+    height: 21px;
+    top: 18px;
+    background-position: 0px -120px;
+}
+.irs-bar {
+    height: 8px;
+    top: 25px;
+    background-position: 0 -60px;
+}.irs-bar-edge {
+    top: 25px;
+    height: 8px;
+    width: 11px;
+    background-position: 0 -90px;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+  #charts_widget{
+    height: 232px;
+  }
+}
